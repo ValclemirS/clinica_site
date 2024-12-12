@@ -1,0 +1,164 @@
+
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    color: #e7e302;
+}
+
+.wrapper {
+    width: 100%;
+    
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(252, 32, 233);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 84%;
+}
+.menu {
+    width: 16%;
+    background-color: rgb(180, 0, 111);
+    padding: 10px 20px 0px;
+    display: flex;
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.menu ul li  {
+    border-style: initial;
+   
+
+}
+.menu ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    background-color:  #e447ca;
+    padding: 20px;
+    text-align: center;
+}
+
+.header img {
+    border-radius: 50%;
+}
+
+.content {
+    padding: 20px;
+    background-color: #e447ca;
+    line-height: 1.6;
+}
+
+.content img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #8f267d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+form {
+    background-color:  #e447ca;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+legend {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #000000;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #050000;
+}
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+input[type="submit"],
+input[type="button"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 10px;
+}
+input[type="button"] {
+    background-color: #f44336;
+    color: #fff;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+input[type="button"]:hover {
+    background-color: #d32f2f;
+}
+table {
+    background-color:  #e447ca;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    height: 200px;
+    border: solid;
+    text-align: center;
+}
+table th  {
+    border: solid;
+}
+table td  {
+    border: solid;
+}
